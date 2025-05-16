@@ -12,6 +12,8 @@ function Manager() {
     const [isEye, setIsEye] = useState(true);
     const passref = useRef()
 
+    
+
     useEffect(() => {
         let passwords = JSON.parse(localStorage.getItem("passwords"));
         if (passwords) {
